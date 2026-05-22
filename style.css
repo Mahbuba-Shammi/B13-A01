@@ -13,6 +13,14 @@
     color: #FFFFFF; 
 }
 
+.btn2{
+    background-color: transparent; 
+    border: 1px solid #FFFFFF;
+    padding: 10px 14px;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
 
 /* nav style */
 
@@ -29,8 +37,103 @@ nav .logo{
      width: 139px;
 }
 
-nav .menu{
+nav .menu {
     display: flex;
     list-style-type: none;
     gap: 32px;
 }
+
+nav .menu li a {
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+/* banner style */
+ #banner {
+    background-image: url("B13-A01-Knowledge-Vault/assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 674px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.banner-container {
+    width: 100%;
+    max-width: 1600px; 
+    margin: 0 auto; 
+    text-align: center;
+} 
+
+
+.banner-container h1 {
+    font-size: 48px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.banner-container h1 span {
+    color: #30B868;
+}
+
+.banner-container p {
+    color: #FFFFFF;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.early-access {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  background: #ffffff;
+  border-radius: 1000px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #276941;
+  
+}
+
+.early-access .icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: rgba(75, 149, 102, 0.15); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.early-access .icon::before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: rgba(75, 149, 102, 0.2);
+  position: absolute;
+}
+
+.early-access .icon::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #4b9566;
+  position: absolute;
+}
+
+
+
+
+
+
+
+
+
