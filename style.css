@@ -129,6 +129,95 @@ nav .menu li a {
   position: absolute;
 }
 
+/* note style */
+
+#note-section{
+    background-color: #0000000F;
+    padding: 0 120px 120px 120px ;
+    gap: 44px;
+   
+}
+
+#note-section .note{
+    width: 83%;
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#note-section .note h1 {
+    font-size: 48px;
+    color: #001931;
+    font-weight: 700;
+    padding-top: 48px;
+
+}
+
+#note-section .note p{
+    color: #627382;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+
+.cards{
+    display: flex;  
+    justify-content: center;
+    gap: 24px;
+    padding-top: 48px;
+    flex-wrap: wrap;
+}
+
+
+ .card{
+    background-color: white;
+    width: 100%;
+    max-width: 322px;
+    border-radius: 8px;
+    padding: 50px 24px 24px 24px;
+    gap: 16px;
+    box-shadow: 0 0 8px 0 #0000000F; 
+ }
+
+
+.card-icon-center{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+} 
+
+
+.card-icon{
+    background-color: #F95555;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.card h3{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #001931;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.card p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    text-align: center;
+    margin-top: 12px;
+   
+}
+
+
 
 
 
