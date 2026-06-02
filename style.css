@@ -405,6 +405,20 @@ nav .menu li a {
     gap: 16px;
 }
 
+.social-icon{
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    text-decoration: none;
+    
+
+}
+
 .social-icons p{
     color: white;
     font-weight: 500;
@@ -418,7 +432,8 @@ nav .menu li a {
 
 .social-icons a{
     color: white;
-    font-size: 18px;
+    font-size: 12px;
+  
 }
 
 hr{
