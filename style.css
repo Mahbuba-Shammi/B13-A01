@@ -5,29 +5,46 @@
     font-family: 'Inter', sans-serif;
 } 
 
+/* button section */
 
-.btn {
+.btn{
     background-color: #469165;
     border: none;
     padding: 12px 16px;
     border-radius: 4px;
-    color: #FFFFFF; 
+    color: #FFFFFF;
+    cursor: pointer;  
 }
 
+.btn:hover{
+    background-color: #2b7249;
+    transform: translateY(-3px);
+} 
+
 .btn2{
-    background-color: transparent; 
+    background: transparent;
     border: 1px solid #FFFFFF;
     padding: 10px 14px;
     border-radius: 4px;
     color: #FFFFFF;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn2:hover{
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-3px);
 }
 
 
 /* nav style */
 
 nav{
-    width: 83%;
+    width: 100%;
     max-width: 1600px;
+    padding: 16px 120px 16px 120px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -38,17 +55,20 @@ nav .logo{
      width: 139px;
 }
 
-nav .menu {
+
+nav .menu{
     display: flex;
-    list-style-type: none;
+    align-items: center;
     gap: 32px;
+    list-style: none;
 }
 
 nav .menu li a {
     text-decoration: none;
     color: #000000;
     
-}
+} 
+
 
 /* banner style */
  #banner {
@@ -130,12 +150,23 @@ nav .menu li a {
   position: absolute;
 }
 
+
+.banner-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 20px;
+}
+
 /* note section */
 
 #note-section{
-    background-color: #0000000F;
-    padding: 0 120px 120px 120px ;
-    gap: 44px;
+    width: 100%;
+    height: 448px;
+    margin: 0 auto;
+    background-color: #9b959509;
+    padding: 0 120px 40px;
+    
    
 }
 
@@ -166,6 +197,7 @@ nav .menu li a {
     justify-content: center;
     gap: 24px;
     padding-top: 48px;
+    padding-bottom: 0px;
     flex-wrap: wrap;
 }
 
@@ -175,8 +207,7 @@ nav .menu li a {
     width: 100%;
     max-width: 322px;
     border-radius: 8px;
-    padding: 50px 24px 24px 24px;
-    gap: 16px;
+    padding: 40px 24px 24px;
     box-shadow: 0 0 8px 0 #0000000F; 
  }
 
@@ -220,17 +251,16 @@ nav .menu li a {
 
 /* Second Brain Section */
 
-#Second-Brain-Section{
+#second-brain-section{
     width: 83%;
     max-width: 1360px;
-    min-height: 600px;
     margin: 0 auto;
-    padding: 120px 0;
+    padding: 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 60px;
-    box-sizing: border-box;
+   
 }
 
 /* IMAGE */
